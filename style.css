@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+:root {
+  /* Colors */
+  --color-primary: ;
+  --color-secondary: ;
+  --color-background: ;
+  --color-surface: ;
+  --color-text-primary: ;
+  --color-text-secondary: ;
+
+  /* Typography */
+  --font-primary: ;
+  --font-secondary: ;
+
+  /* Shadows */
+  --shadow-default: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
