@@ -19,4 +19,4 @@ WhatsApp API (wa.me)
 
 🔗 Acesse o projeto
 
-Em breve
+<a href="(https://gusanchez1.github.io/dannaus-bags/)" target="_blank">Clique aqui</a>
