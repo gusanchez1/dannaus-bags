@@ -58,8 +58,11 @@ header {
 }
 
 body {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-white);
-    font-family: sans-serif;
+    font-family: var(--font-text);
 }
 
 .off-screen-menu {
@@ -162,18 +165,18 @@ nav {
 
 .hero-content h1 {
     margin-bottom: 1em;
+    font-family: var(--font-title);
 }
 
 .hero-content h2 {
     margin-bottom: 1em;
+    font-family: var(--font-title);
 }
 .hero-content p {
     text-align: justify;
     line-height: 1.5em;
     text-indent: 2em;
-}
-
-.hero-content p {
+    font-family: var(--font-text);
     margin-bottom: 1em;
 }
 
