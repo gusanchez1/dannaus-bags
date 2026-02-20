@@ -4,21 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500&display=swap');
 
 :root {
-    /* Brand */
     --color-primary: #F23005;
     --color-secondary: #D96725;
     --color-accent: #F28705;
     --color-highlight: #F2CD5C;
 
-    /* Accent */
     --color-olive: #5E6F3B;
     --color-forest: #2F4F3A;
 
-    /* Neutral */
     --color-white: #ffffff;
     --color-black: #000000;
 
-    /* Fonts */
     --font-title: "Inter", sans-serif;
     --font-text: "Krub", sans-serif;
 }
@@ -161,6 +157,7 @@ nav {
     text-align: center;
     color: white;
     padding: 1em;
+    box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.25);
 }
 
 .hero-content h1 {
@@ -184,4 +181,77 @@ nav {
 #foto-borboleta {
     height: 200px;
     border-radius: 1em;
+}
+
+/* PRODUCTS SECTION */
+.products {
+    padding: 4rem 2rem;
+}
+
+.products__title {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* GRID */
+.products__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
+}
+
+/* PRODUCT CARD */
+.product {
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.product__link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* IMAGE */
+.product__thumb {
+    background: #f8f8f8;
+    padding: 2rem;
+}
+
+.product__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.product:hover .product__image {
+    transform: scale(1.05);
+}
+
+/* DETAILS */
+.product__details {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.product__name {
+    font-family: var(--font-title);
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.product__price {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
 }
