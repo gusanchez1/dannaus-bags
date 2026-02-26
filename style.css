@@ -15,6 +15,8 @@
     --color-white: #ffffff;
     --color-black: #000000;
 
+    --color-productbg: #f3f3f3;
+
     --font-title: "Inter", sans-serif;
     --font-text: "Krub", sans-serif;
 }
@@ -37,6 +39,7 @@ body {
     flex-direction: column;
     background-color: var(--color-white);
     font-family: var(--font-text);
+    padding-top: 82px;
 }
 
 .logo img {
@@ -46,7 +49,17 @@ body {
 header {
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.header-hidden {
+    transform: translateY(-100%);
 }
 
 .logo {
@@ -165,7 +178,7 @@ nav {
     align-items: center;
     background-color: var(--color-secondary);
     text-align: center;
-    color: white;
+    color: var(--color-white);
     padding: 1em;
     box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.25);
 }
@@ -210,6 +223,7 @@ svg {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 .products__grid {
@@ -246,7 +260,7 @@ svg {
 }
 
 .product__thumb {
-    background: #f3f3f3;
+    background: var(--color-productbg);
     padding: 1rem;
 }
 
