@@ -201,7 +201,7 @@ svg {
 
 .products {
     background-color: var(--color-forest);
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .products__title {
@@ -215,7 +215,7 @@ svg {
 .products__grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
-    gap: 3rem 2rem;
+    gap: 1.5rem 1rem;
     margin: 0 auto;
 }
 
