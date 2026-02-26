@@ -5,6 +5,7 @@ const links = document.querySelectorAll(".links");
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
+  document.body.classList.toggle("no-scroll")
 });
 
 links.forEach(link => {

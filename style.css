@@ -87,6 +87,10 @@ header {
     left: 0;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 ul li {
     padding: 0.5em;
     border-bottom: 1.5px solid black;
@@ -211,7 +215,7 @@ svg {
 .products__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
+    gap: 3rem 2rem;
     margin: 0 auto;
 }
 
