@@ -295,6 +295,8 @@ svg {
 
 .wave__invertida {
     background-color: var(--color-secondary);
+    display: block;
+    margin-bottom: -1px;
 }
 
 .about__us {
