@@ -214,9 +214,15 @@ svg {
 
 .products__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
     gap: 3rem 2rem;
     margin: 0 auto;
+}
+
+.products__grid > .product:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 220px;
+    justify-self: center;
 }
 
 .product {
@@ -225,6 +231,7 @@ svg {
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
+    width: 100%;
 }
 
 .product:hover {
