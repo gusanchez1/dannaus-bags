@@ -12,5 +12,6 @@ links.forEach(link => {
   link.addEventListener("click", () => {
     hamMenu.classList.remove("active");
     offScreenMenu.classList.remove("active");
+    document.body.classList.remove("no-scroll");
   });
 });
