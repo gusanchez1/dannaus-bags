@@ -294,23 +294,16 @@ nav {
 .wave1,
 .wave2 {
     display: block;
-    line-height: 0;
-}
-
-svg {
-    vertical-align: top;
+    width: 100%;
 }
 
 .wave2 {
     background-color: var(--color-secondary);
-    position: relative;
-    top: -1px;
 }
 
 /* ABOUT US SECTION */
 
 .about__us {
-
     background-color: var(--color-secondary);
 }
 
