@@ -291,12 +291,15 @@ svg {
     font-weight: 600;
 }
 
-/* ABOUT US SECTION */
-
 .wave__invertida {
     background-color: var(--color-secondary);
     display: block;
-    margin-top: -2px;
+}
+
+/* ABOUT US SECTION */
+
+div.teste {
+    background-color: var(--color-forest);
 }
 
 .about__us {
