@@ -207,7 +207,7 @@ nav {
     border-radius: 1em;
 }
 
-svg {
+.wave1 {
     background-color: var(--color-forest);
 }
 
@@ -291,16 +291,13 @@ svg {
     font-weight: 600;
 }
 
-.wave__invertida {
+.wave2 {
+    margin-top: -5px;
     background-color: var(--color-secondary);
     display: block;
 }
 
 /* ABOUT US SECTION */
-
-div.teste {
-    background-color: var(--color-forest);
-}
 
 .about__us {
 
