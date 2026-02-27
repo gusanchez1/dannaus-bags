@@ -299,6 +299,7 @@ nav {
 
 .wave2 {
     background-color: var(--color-secondary);
+    margin-top: -10px;
 }
 
 /* ABOUT US SECTION */
