@@ -303,6 +303,8 @@ svg {
 
 .wave2 {
     background-color: var(--color-secondary);
+    position: relative;
+    top: -1px;
 }
 
 /* ABOUT US SECTION */
