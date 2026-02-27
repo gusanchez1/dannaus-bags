@@ -291,10 +291,18 @@ nav {
     font-weight: 600;
 }
 
+.wave1,
 .wave2 {
-    margin-top: -5px;
-    background-color: var(--color-secondary);
     display: block;
+    line-height: 0;
+}
+
+svg {
+    vertical-align: top;
+}
+
+.wave2 {
+    background-color: var(--color-secondary);
 }
 
 /* ABOUT US SECTION */
