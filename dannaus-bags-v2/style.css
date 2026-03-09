@@ -675,7 +675,7 @@ footer {
 }
 
 /* ── RESPONSIVE ── */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
         height: auto;
@@ -701,6 +701,10 @@ footer {
 
     .products-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .product-footer {
+        flex-direction: column;
     }
 
     .ig-grid {
