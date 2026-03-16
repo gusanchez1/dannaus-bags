@@ -44,6 +44,7 @@ nav {
     right: 0;
     z-index: 100;
     display: flex;
+    gap: 16px;
     align-items: center;
     justify-content: space-between;
     padding: 18px 5%;
@@ -135,6 +136,7 @@ nav {
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
+    text-wrap: nowrap;
     color: var(--espresso);
     background: var(--cream);
     border: 1px solid var(--tan);
@@ -692,6 +694,10 @@ footer {
 
     .nav-links {
         display: none;
+    }
+
+    .nav-instagram {
+        text-wrap: nowrap;
     }
 
     .about {
