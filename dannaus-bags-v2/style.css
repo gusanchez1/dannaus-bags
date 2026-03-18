@@ -702,6 +702,10 @@ footer {
         min-height: 100svh;
     }
 
+    .hero-left {
+        padding-top: 40px;
+    }
+
     .hero-right {
         height: 55vh
     }
