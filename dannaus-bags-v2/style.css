@@ -505,6 +505,7 @@ nav {
     text-align: center;
 }
 
+/*
 .ig-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -549,6 +550,7 @@ nav {
 .ig-tile:hover::after {
     opacity: 1;
 }
+*/
 
 .ig-handle {
     display: inline-flex;
@@ -736,9 +738,11 @@ footer {
         flex-direction: column;
     }
 
+    /*
     .ig-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    */
 
     footer {
         grid-template-columns: 1fr;
