@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
-
 *,
 *::before,
 *::after {
@@ -20,8 +18,8 @@
     --orange-logo: #d4561a;
     --gold-logo: #e8a820;
 
-    --font-display: 'Cormorant Garamond', serif;
-    --font-body: 'Jost', sans-serif;
+    --font-display: "Cormorant Garamond", serif;
+    --font-body: "Jost", sans-serif;
 }
 
 html {
@@ -37,7 +35,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ── NAV ── */
 nav {
     position: fixed;
     top: 0;
@@ -152,7 +149,6 @@ nav {
     border-color: var(--espresso);
 }
 
-/* ── HERO ── */
 .hero {
     min-height: 100vh;
     display: grid;
@@ -285,7 +281,6 @@ nav {
     pointer-events: none;
 }
 
-/* ── STRIP ── */
 .strip {
     background: var(--espresso);
     padding: 14px 0;
@@ -314,7 +309,6 @@ nav {
     margin: 0 30px 0 30px;
 }
 
-/* ── ABOUT ── */
 .about {
     padding: 80px 8%;
     display: grid;
@@ -390,7 +384,6 @@ nav {
     color: var(--bark);
 }
 
-/* ── PRODUCTS ── */
 .products {
     padding: 80px 8%;
     background: var(--cream);
@@ -499,7 +492,6 @@ nav {
     gap: 10px;
 }
 
-/* ── INSTAGRAM ── */
 .instagram-section {
     padding: 80px 8%;
     text-align: center;
@@ -567,7 +559,6 @@ nav {
     color: var(--orange-logo);
 }
 
-/* ── FOOTER ── */
 footer {
     background: var(--espresso);
     color: var(--cream);
@@ -650,7 +641,6 @@ footer {
     color: rgba(245, 239, 230, 0.3);
 }
 
-/* ── ANIMATIONS ── */
 @keyframes fadeSlideLeft {
     from {
         opacity: 0;
@@ -697,7 +687,6 @@ footer {
     }
 }
 
-/* ── RESPONSIVE ── */
 @media (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
